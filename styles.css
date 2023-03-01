@@ -1,0 +1,47 @@
+body {
+    display: grid;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.avatar {
+    width: 190px;
+    border: 2px dotted rgba(165, 67, 42, 0.91);
+    border-bottom: 9px solid rgb(238, 72, 38);
+    border-right: 9px solid #54b3d6;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    border: 2px dotted rgba(165, 67, 42, 0.91);
+    border-radius: 15px;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    border-bottom: 9px solid rgb(238, 72, 38);
+}
+
+.card:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+
+.name {
+    font-size: 25px;
+    font-style: italic;
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.job {}
+
+.location {
+    color: rgb(238, 72, 38);
+    font-family: 'Courier New', Courier, monospace;
+}
